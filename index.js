@@ -3,7 +3,7 @@
 const path = require('path')
 const async = require('async')
 const Lokue = require('lokue')
-const Base = require('bfx-facs-base')
+const Base = require('@bitfinex/bfx-facs-base')
 
 class LokueFacility extends Base {
   constructor (caller, opts, ctx) {
